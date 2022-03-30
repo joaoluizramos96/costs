@@ -4,13 +4,14 @@ import Input from "../form/Input"
 import Select from "../form/Select"
 import SubmitButton from "../form/SubmitButton"
 
+
 function ProjectForm({ handleSubmit, btnText, projectData }) {
 
     const [categories, setCategories] = useState([])
     const [project, setProject] = useState(projectData || [])
 
     useEffect(() => {
-        fetch("db.json", {
+        fetch("https://api-costs.netlify.app/db.json", {
             method: "GET",
             headers: {
                 'Content-Type': 'application/json'

@@ -8,7 +8,6 @@ import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import Projects from './components/pages/Projects.js';
 
-
 function App() {
   return (
     <Router>
