@@ -1,24 +1,5 @@
 {
-  "projects": [
-    {
-      "name": "novo projeto",
-      "budget": "15000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "qweqweq",
-      "budget": "3123",
-      "cost": 0,
-      "services": [],
-      "id": 2
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": 1,
